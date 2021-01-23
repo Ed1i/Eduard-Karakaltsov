@@ -1,0 +1,42 @@
+﻿<Window x:Class="Project_Nanotec.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project_Nanotec"
+        mc:Ignorable="d"
+        Title="Project" Height="450" Width="800">
+    <Grid RenderTransformOrigin="0.672,0.649">
+        <Menu HorizontalAlignment="Left" Height="24" Margin="0,10,0,0" VerticalAlignment="Top" Width="792">
+            <MenuItem Header="File">
+                <MenuItem Header="Open" Click="MenuItem_Click"/>
+                <MenuItem Header="Save" Click="MenuItem_Click_1"/>
+                <MenuItem Header="Save as" Click="MenuItem_Click_2"/>
+                <Separator></Separator>
+                <MenuItem Header="Exit" Click="MenuItem_Click_3"/>
+            </MenuItem>
+        </Menu>
+        <TreeView x:Name="treeview" HorizontalAlignment="Left" Height="340" Margin="0,39,0,0" VerticalAlignment="Top" Width="370"   SelectedItemChanged="SelectedItemChanged"  />
+        <Label x:Name="lb1" Content="" HorizontalAlignment="Left" Margin="0,386,0,0" VerticalAlignment="Top" Width="370"/>
+        <Button x:Name="EditBt" Content="Edit" HorizontalAlignment="Left" Margin="581,97,0,0" VerticalAlignment="Top" Width="75" Click="EditBt_Click"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Height="23" Margin="397,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Height="23" Margin="397,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <TextBox x:Name="tb3" HorizontalAlignment="Left" Height="23" Margin="397,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Hidden"/>
+        <Label x:Name="lb2" Content="Please fill the TreeView!" HorizontalAlignment="Left" Margin="388,34,0,0" VerticalAlignment="Top" FontWeight="Bold" Visibility="Hidden"/>
+        <Button x:Name="ApplyBT" Content="Apply" HorizontalAlignment="Left" Margin="581,231,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click" RenderTransformOrigin="2.387,-3.9" Visibility="Hidden"/>
+        <Label x:Name="Tlb" Content="Please enter Title:" HorizontalAlignment="Left" Margin="409,64,0,0" VerticalAlignment="Top" Height="25" Width="108" Visibility="Hidden"/>
+        <Label x:Name="Alb" Content="Please enter Author:" HorizontalAlignment="Left" Margin="397,122,0,0" VerticalAlignment="Top" Visibility="Hidden"/>
+        <Label x:Name="Ylb" Content="Please enter Year:" HorizontalAlignment="Left" Margin="397,197,0,0" VerticalAlignment="Top" Width="105" Visibility="Hidden"/>
+        <TextBlock x:Name="txBlock" HorizontalAlignment="Left" Margin="375,268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="111" Width="407" Visibility="Hidden" >
+            <TextBlock.Text>
+                <MultiBinding StringFormat="New Title: {0}, New Author: {1},New Year: {2}">
+                    <Binding Path="Text" ElementName="tb1"/>
+                    <Binding Path="Text" ElementName="tb2"/>
+                    <Binding Path="Text" ElementName="tb3"/>
+                </MultiBinding>
+            </TextBlock.Text>
+        </TextBlock>
+
+
+    </Grid>
+</Window>

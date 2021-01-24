@@ -1,0 +1,124 @@
+﻿<Window x:Class="CanTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CanTest.ViewModel"
+        xmlns:System="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="Project 1" Height="500" Width="800" ResizeMode="CanResizeWithGrip"
+        DataContext="{Binding Main,Source={StaticResource Locator}}">
+
+    <Viewbox Stretch="UniformToFill" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+        <Grid VerticalAlignment="Top" HorizontalAlignment="Stretch" Height="453" Margin="16,0,3.333,0" Width="766">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0*"/>
+                <ColumnDefinition Width="765*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="207*"/>
+                <RowDefinition Height="214*"/>
+            </Grid.RowDefinitions>
+
+            <Menu Grid.ColumnSpan="2" HorizontalAlignment="Stretch" Height="21" VerticalAlignment="Top" Margin="-16,1,453.333,0">
+                <MenuItem Header="File">
+                    <MenuItem Header="Load Data" Command="{Binding OpenCommand}">
+
+                        <MenuItem.Icon>
+                            <Image   Source="/Resources/images/load.png" Width="15" Height="20" />
+                        </MenuItem.Icon>
+
+                    </MenuItem>
+                    <MenuItem Header="Write Data" Command="{Binding SaveCommand}" />
+                    <Separator></Separator>
+                    <MenuItem Header="Exit" Click="MenuItem_Click" />
+                </MenuItem>
+                <MenuItem Header="Data">
+                    <MenuItem Header="Add" Click="btAddRow_Click" />
+                    <MenuItem Header="Edit" ToolTip="You can edit data via double click" />
+                    <MenuItem Header="Delete" ToolTip="You can delete data via Delete key" />
+                </MenuItem>
+                <MenuItem Header="Help">
+                    <MenuItem Header="About"></MenuItem>
+                </MenuItem>
+            </Menu>
+            <ComboBox x:Name="cbDevices" Height="21" Margin="313,0,286.333,0" VerticalAlignment="Top" HorizontalAlignment="Center" ItemsSource="{Binding PortNames}" SelectedItem="{Binding SelectedItem,Mode=TwoWay}" Width="166" IsSynchronizedWithCurrentItem="True" Grid.Column="1" SelectedIndex="0"/>
+
+            <ListView x:Name="lv" SelectionChanged="SelectionChanged" MouseDoubleClick="lv_MouseDoubleClick" KeyDown="listView_KeyDown" HorizontalAlignment="Left" Margin="-16,26,0,172.333" Width="781" Grid.ColumnSpan="2" ItemsSource = "{Binding canP}" Grid.RowSpan="2" >
+
+                <ListView.View>
+
+                    <GridView x:Name="gdV" AllowsColumnReorder="False">
+
+                        <GridViewColumn Header="NodeID" Width="60"  DisplayMemberBinding="{Binding NodeID}"></GridViewColumn>
+                        <GridViewColumn Header="Index"  Width="60" DisplayMemberBinding="{Binding Index}"></GridViewColumn>
+                        <GridViewColumn Header="SubIndex" Width="Auto" DisplayMemberBinding="{Binding Subindex}"></GridViewColumn>
+                        <GridViewColumn Header="DataType" Width="60"  DisplayMemberBinding="{Binding Datatype}"></GridViewColumn>
+                        <GridViewColumn Header="RxValue" Width="150" DisplayMemberBinding="{Binding Rx}"></GridViewColumn>
+                        <GridViewColumn Header="TxValue" Width="150"  DisplayMemberBinding="{Binding Tx}"></GridViewColumn>
+                        <GridViewColumn Header="SendCommand" Width="100">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button x:Name="btW"  Command="{Binding WriteCommand}" Width="80" Height="20" Content="Send" Background="Red" Click="btW_Click"  />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Desciption" >
+                            <GridViewColumn.CellTemplate >
+                                <DataTemplate>
+                                    <TextBox   x:Name="Desciption" Width="120" Text="{Binding Description, UpdateSourceTrigger=PropertyChanged, Mode=TwoWay}"></TextBox>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+            <Label x:Name="lb1" Content="{Binding Value}" HorizontalAlignment="Left" Margin="12,95.333,0,0" Grid.Row="1" VerticalAlignment="Top" Height="14" Width="24" Grid.Column="1" />
+            <TextBox x:Name="tb1" Text="{Binding Value,  UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" Visibility="Hidden" ToolTip="Enter a Value for Write command" TextChanged="ValueChanged" HorizontalAlignment="Left" Height="23" Margin="181,95.333,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+            <Label x:Name="lbValue" Grid.ColumnSpan="2" Content="Enter Value for Write command:" Visibility="Hidden" HorizontalAlignment="Left" Margin="0,92.333,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+            <!--<Button x:Name="ComSettings" Content="COM Settings" Grid.Column="1" Margin="188,95.333,472.333,115.333" Grid.Row="1" Click="ComSettings_Click" />-->
+
+            <ListBox x:Name="LBMSG" IsSynchronizedWithCurrentItem="True" Visibility="Hidden" ItemsSource="{Binding canP}" BorderThickness="1" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"  Grid.Row="1" Grid.Column="1" Margin="434,74.333,0.333,0.333" >
+                <ListBox.Template>
+                    <ControlTemplate>
+                        <DockPanel LastChildFill="True">
+                            <Grid DockPanel.Dock="Top" Height="30">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Label x:Name="HBlabel" Grid.Column="0" Margin="0,0,-230.333,0" HorizontalContentAlignment="Center">Messages</Label>
+                            </Grid>
+                            <ItemsPresenter></ItemsPresenter>
+                        </DockPanel>
+                    </ControlTemplate>
+                </ListBox.Template>
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,2" ScrollViewer.CanContentScroll="True" ScrollViewer.VerticalScrollBarVisibility="Visible">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100" ></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+
+                            <!--<Label Content="{Binding Messages}"></Label>-->
+                            <ScrollViewer Width="120">
+                                <TextBlock x:Name="tbMessages" Height="30" Text="{Binding Messages}"></TextBlock>
+                            </ScrollViewer>
+                        </Grid>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <ComboBox x:Name="cbReadWrite"  SelectionChanged="cbReadWrite_SelectionChanged" Grid.ColumnSpan="2" HorizontalAlignment="Left" Margin="494,1,0,0" VerticalAlignment="Top" Width="120" Height="20" SelectedIndex="0" IsSynchronizedWithCurrentItem="False">
+                <ComboBoxItem x:Name="cbRead"  Content="SDORead"/>
+                <ComboBoxItem x:Name="cbWrite"  Content="SDOWrite"/>
+            </ComboBox>
+           
+
+
+
+        </Grid>
+
+    </Viewbox>
+</Window>

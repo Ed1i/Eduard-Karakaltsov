@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCanOpenDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CanOpenDevice>
+    <Datatype>u32</Datatype>
+    <Description>test11</Description>
+    <Rx></Rx>
+    <Tx></Tx>
+    <NodeID>1</NodeID>
+    <Index>24830</Index>
+    <Subindex>1</Subindex>
+    <Value>100</Value>
+  </CanOpenDevice>
+  <CanOpenDevice>
+    <Datatype>u16</Datatype>
+    <Description>test12</Description>
+    <Rx></Rx>
+    <Tx></Tx>
+    <NodeID>2</NodeID>
+    <Index>8240</Index>
+    <Subindex>1</Subindex>
+    <Value>0</Value>
+  </CanOpenDevice>
+  <CanOpenDevice>
+    <Datatype>i32</Datatype>
+    <Description>test13</Description>
+    <Rx></Rx>
+    <Tx></Tx>
+    <NodeID>10</NodeID>
+    <Index>4112</Index>
+    <Subindex>4</Subindex>
+    <Value>0</Value>
+  </CanOpenDevice>
+</ArrayOfCanOpenDevice>

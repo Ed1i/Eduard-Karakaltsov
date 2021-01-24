@@ -1,0 +1,163 @@
+C:\Users\Student03\source\repos\CanTest\CanTest\bin\Debug\CanTest.exe.config
+C:\Users\Student03\source\repos\CanTest\CanTest\bin\Debug\CanTest.exe
+C:\Users\Student03\source\repos\CanTest\CanTest\bin\Debug\CanTest.pdb
+C:\Users\Student03\source\repos\CanTest\CanTest\bin\Debug\CommonServiceLocator.dll
+C:\Users\Student03\source\repos\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Student03\source\repos\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Student03\source\repos\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Student03\source\repos\CanTest\CanTest\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Student03\source\repos\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Student03\source\repos\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Student03\source\repos\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Student03\source\repos\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Student03\source\repos\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Student03\source\repos\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\App.g.cs
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\CanTest_MarkupCompile.cache
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\CanTest_MarkupCompile.lref
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\App.baml
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\CanTest.g.resources
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\CanTest.Properties.Resources.resources
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\CanTest.csproj.GenerateResource.cache
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\CanTest.csproj.CopyComplete
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\CanTest.exe
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\CanTest.pdb
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\Views\MainWindow.baml
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\Views\Objects.g.cs
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\Views\Objects.baml
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\CanTest.csprojAssemblyReference.cache
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\Views\test.g.cs
+C:\Users\Student03\source\repos\CanTest\CanTest\obj\Debug\Views\test.baml
+E:\Nanotec Work\failove\Project\CanTest\CanTest\bin\Debug\CanTest.exe.config
+E:\Nanotec Work\failove\Project\CanTest\CanTest\bin\Debug\CanTest.exe
+E:\Nanotec Work\failove\Project\CanTest\CanTest\bin\Debug\CanTest.pdb
+E:\Nanotec Work\failove\Project\CanTest\CanTest\bin\Debug\CommonServiceLocator.dll
+E:\Nanotec Work\failove\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.dll
+E:\Nanotec Work\failove\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+E:\Nanotec Work\failove\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+E:\Nanotec Work\failove\Project\CanTest\CanTest\bin\Debug\System.Windows.Interactivity.dll
+E:\Nanotec Work\failove\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.pdb
+E:\Nanotec Work\failove\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.xml
+E:\Nanotec Work\failove\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+E:\Nanotec Work\failove\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+E:\Nanotec Work\failove\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+E:\Nanotec Work\failove\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\CanTest.csprojAssemblyReference.cache
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\Views\MainWindow.g.cs
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\Views\Objects.g.cs
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\Views\test.g.cs
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\App.g.cs
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\CanTest_MarkupCompile.cache
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\CanTest_MarkupCompile.lref
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\App.baml
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\Views\MainWindow.baml
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\Views\Objects.baml
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\Views\test.baml
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\CanTest.g.resources
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\CanTest.Properties.Resources.resources
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\CanTest.csproj.GenerateResource.cache
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\CanTest.csproj.CoreCompileInputs.cache
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\CanTest.csproj.CopyComplete
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\CanTest.exe
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\CanTest.pdb
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\CanTest.csprojResolveAssemblyReference.cache
+E:\Nanotec Work\failove\Project\CanTest\CanTest\obj\Debug\Views\Window1.g.cs
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\obj\Debug\Views\MainWindow.g.cs
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\obj\Debug\App.g.cs
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\obj\Debug\CanTest_MarkupCompile.cache
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\obj\Debug\CanTest_MarkupCompile.lref
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\obj\Debug\CanTest.exe
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\obj\Debug\CanTest.pdb
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\bin\Debug\CanTest.exe.config
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\bin\Debug\CanTest.exe
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\bin\Debug\CanTest.pdb
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\bin\Debug\CommonServiceLocator.dll
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\obj\Debug\App.baml
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\obj\Debug\Views\MainWindow.baml
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\obj\Debug\CanTest.g.resources
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\obj\Debug\CanTest.Properties.Resources.resources
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\obj\Debug\CanTest.csproj.GenerateResource.Cache
+C:\Users\Едуард\Desktop\Project\CanTest\CanTest\obj\Debug\CanTest.csprojResolveAssemblyReference.cache
+C:\Projects\CanTest\CanTest\bin\Debug\CanTest.exe.config
+C:\Projects\CanTest\CanTest\bin\Debug\CanTest.exe
+C:\Projects\CanTest\CanTest\bin\Debug\CanTest.pdb
+C:\Projects\CanTest\CanTest\bin\Debug\CommonServiceLocator.dll
+C:\Projects\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.dll
+C:\Projects\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Projects\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+C:\Projects\CanTest\CanTest\bin\Debug\System.Windows.Interactivity.dll
+C:\Projects\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Projects\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.xml
+C:\Projects\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Projects\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Projects\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+C:\Projects\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+C:\Projects\CanTest\CanTest\obj\Debug\Views\MainWindow.g.cs
+C:\Projects\CanTest\CanTest\obj\Debug\App.g.cs
+C:\Projects\CanTest\CanTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Projects\CanTest\CanTest\obj\Debug\CanTest_MarkupCompile.cache
+C:\Projects\CanTest\CanTest\obj\Debug\CanTest_MarkupCompile.lref
+C:\Projects\CanTest\CanTest\obj\Debug\App.baml
+C:\Projects\CanTest\CanTest\obj\Debug\Views\MainWindow.baml
+C:\Projects\CanTest\CanTest\obj\Debug\CanTest.g.resources
+C:\Projects\CanTest\CanTest\obj\Debug\CanTest.Properties.Resources.resources
+C:\Projects\CanTest\CanTest\obj\Debug\CanTest.csproj.GenerateResource.cache
+C:\Projects\CanTest\CanTest\obj\Debug\CanTest.csproj.CopyComplete
+C:\Projects\CanTest\CanTest\obj\Debug\CanTest.exe
+C:\Projects\CanTest\CanTest\obj\Debug\CanTest.pdb
+C:\Projects\CanTest\CanTest\obj\Debug\Views\COMportSett.g.cs
+C:\Projects\CanTest\CanTest\obj\Debug\Views\COMportSett.baml
+C:\Projects\CanTest\CanTest\obj\Debug\Views\AddItem.g.cs
+C:\Projects\CanTest\CanTest\obj\Debug\Views\AddItem.baml
+C:\Projects\CanTest\CanTest\obj\Debug\Views\EditItem.g.cs
+C:\Projects\CanTest\CanTest\obj\Debug\Views\EditItem.baml
+C:\Projects\CanTest\CanTest\obj\Debug\CanTest.csprojAssemblyReference.cache
+E:\Nanotec Work\CanTest\CanTest\bin\Debug\CanTest.exe.config
+E:\Nanotec Work\CanTest\CanTest\bin\Debug\CanTest.exe
+E:\Nanotec Work\CanTest\CanTest\bin\Debug\CanTest.pdb
+E:\Nanotec Work\CanTest\CanTest\bin\Debug\CommonServiceLocator.dll
+E:\Nanotec Work\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.dll
+E:\Nanotec Work\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.dll
+E:\Nanotec Work\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.dll
+E:\Nanotec Work\CanTest\CanTest\bin\Debug\System.Windows.Interactivity.dll
+E:\Nanotec Work\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.pdb
+E:\Nanotec Work\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.xml
+E:\Nanotec Work\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+E:\Nanotec Work\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Extras.xml
+E:\Nanotec Work\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.pdb
+E:\Nanotec Work\CanTest\CanTest\bin\Debug\GalaSoft.MvvmLight.Platform.xml
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\CanTest.csprojAssemblyReference.cache
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\Views\AddItem.g.cs
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\Views\COMportSett.g.cs
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\Views\EditItem.g.cs
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\Views\MainWindow.g.cs
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\App.g.cs
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\CanTest_MarkupCompile.cache
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\CanTest_MarkupCompile.lref
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\App.baml
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\Views\AddItem.baml
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\Views\COMportSett.baml
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\Views\EditItem.baml
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\Views\MainWindow.baml
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\CanTest.g.resources
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\CanTest.Properties.Resources.resources
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\CanTest.csproj.GenerateResource.cache
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\CanTest.csproj.CoreCompileInputs.cache
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\CanTest.csproj.CopyComplete
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\CanTest.exe
+E:\Nanotec Work\CanTest\CanTest\obj\Debug\CanTest.pdb
